@@ -1,0 +1,56 @@
+/* App background */
+body{
+    background: url('https://yucheng.yz.id.au/flickr-pics/flickr-background.jpg');
+    background-size: auto;
+    background-position: center;
+}
+.nobg{
+    background: #eee;
+}
+
+/* Logo */
+.flickr-pics-logo{
+    font-size: 25px;
+}
+.flickr-pics-logo a{
+    text-decoration: none;
+}
+
+/* Please enter the keywords... */
+h2{
+    font-size: 1.5rem;
+}
+
+/* Images page container */
+.images-page{
+    max-width: 1200px;
+}
+
+/* Thumbnail pic in card */
+.thumbnail-pic{
+    object-fit: cover;
+}
+
+/* Just in case */
+.pic-card-body{
+    overflow: hidden;
+}
+
+/* Break the long links and author names*/
+.image-info-row{
+    font-size: 18px;
+    word-wrap: break-word;
+}
+
+/* Card size for responsive */
+body .phone{
+    width: 300px;
+    min-height: 380px;    
+}
+
+@media only screen and (min-width:465px){
+    body .phone{
+        width: 200px;
+        min-height: 435px;
+    }
+}
