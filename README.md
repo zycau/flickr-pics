@@ -6,7 +6,8 @@ The layout of this application is designed to be responsive.
 
 ## Online demo
 
-Click [here]()
+Click [here](https://yucheng-flickr-pics.herokuapp.com/) to see it on Heroku
+
 ![Home page](https://yucheng.yz.id.au/flickr-pics/homepage.jpg)
 
 ## Features
