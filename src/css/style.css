@@ -16,6 +16,11 @@ body{
     text-decoration: none;
 }
 
+/* Search bar position */
+.search-container{
+    margin-top: 120px;
+}
+
 /* Please enter the keywords... */
 h2{
     font-size: 1.5rem;

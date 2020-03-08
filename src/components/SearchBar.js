@@ -44,7 +44,7 @@ export const SearchBar = ()=>{
     }
 
     return (
-        <Container className='mb-3'>
+        <Container className='mb-3 search-container'>
             <Form className='' onSubmit={e=>e.preventDefault()}>           
                 <FormGroup className='mb-0'>
                     <Label for='search-bar' hidden>Search</Label>

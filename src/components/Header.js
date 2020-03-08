@@ -21,7 +21,7 @@ export const Header = ()=>{
             color='dark'
             dark
             expand='sm'
-            className='mb-3 fix-top'
+            className='mb-3 fixed-top'
         >
             <NavbarText className='ml-2 flickr-pics-logo'>
                 <Link to='/'>Flickr-Pics</Link>
