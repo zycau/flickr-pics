@@ -13,7 +13,7 @@ export const ImageInfo = ({ index })=>{
     const [, picAuthor, picTakenDate, picTags, , , source] = usePicInfo(index)
 
     return (
-        <Container>
+        <Container className='mb-5'>
             <Row className='border-bottom border-secondary mt-3 image-info-row'>
                 <Col sm='4'>
                     <p className='mb-0 text-sm-right font-weight-bold'>Author:</p>
