@@ -37,6 +37,7 @@ Click [here](https://yucheng-flickr-pics.herokuapp.com/) to see it on Heroku
      │  ├── Header.js
      │  ├── ImageInfo.js
      │  ├── LoadingText.js
+     │  ├── NoResultText.js    
      │  ├── PicCard.js
      │  ├── SearchBar.js
      │  └── WelcomeText.js

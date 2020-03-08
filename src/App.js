@@ -10,9 +10,10 @@ import { Image } from './pages/Image'
 import { SearchBar } from './components/SearchBar'
 import { LoadingText } from './components/LoadingText'
 import { WelcomeText } from './components/WelcomeText'
+import { NoResultText } from './components/NoResultText'
 
 export const App = ()=>{
-    const { isLoading, pics } = useContext(picsContext)
+    const { isLoading, pics, queryInput } = useContext(picsContext)
     
     return (
         <Router>
@@ -22,7 +23,9 @@ export const App = ()=>{
                 {isLoading ?
                     <LoadingText /> :                    
                     (!pics.length ?
-                        <WelcomeText /> :
+                        (!queryInput.length ?
+                            <WelcomeText /> : <NoResultText />
+                        ) :
                         <Switch>
                             <Route path='/' exact>
                                 <Images />
